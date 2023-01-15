@@ -40,7 +40,6 @@ class NotesHandler {
 			message: 'Maaf, terjadi kegagalan pada server kami.',
 		});
 		response.code(500);
-		console.log(error);
 		return response;
 	};
 
@@ -78,7 +77,6 @@ class NotesHandler {
 			message: 'Maaf, terjadi kegagalan pada server kami.',
 		});
 		response.code(500);
-		console.log(error);
 		return response;
 	};
 
@@ -107,7 +105,6 @@ class NotesHandler {
 			message: 'Maaf, terjadi kegagalan pada server kami.',
 		});
 		response.code(500);
-		console.log(error);
 		return response;
 	};
 
@@ -135,7 +132,6 @@ class NotesHandler {
 			message: 'Maaf, terjadi kegagalan pada server kami.',
 		});
 		response.code(500);
-		console.log(error);
 		return response;
 	};
 }
