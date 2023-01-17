@@ -86,7 +86,7 @@ class NotesHandler {
 			await this._service.editNoteById(id, request.payload);
 			return {
 				status: 'success',
-				message: 'Catatan berhasil diperbaharui',
+				message: 'Catatan berhasil diperbarui',
 			};
 		} catch (error) {
 			if (error instanceof ClientError) {
