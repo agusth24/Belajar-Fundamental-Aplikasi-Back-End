@@ -15,7 +15,7 @@ exports.down = (pgm) => {
 	pgm.dropConstraint('songs', 'fk_songs.album_id_songs.id');
 
 	// mengubah nilai album_id_songs old_songs pada song menjadi NULL
-	pgm.sql("UPDATE songs SET album_id_songs = NULL WHERE album_id_songs = 'old_songs'");
+	pgm.sql("UPDATE songs SET album_id = NULL WHERE album_id = 'old_songs'");
 
 	// menghapus album baru.
 	pgm.sql("DELETE FROM albums WHERE id = 'old_songs'");
