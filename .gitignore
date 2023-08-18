@@ -2,3 +2,4 @@ Credential_AWS/*
 */node_modules/*
 .env
 .prod.env
+asset-testing/*
